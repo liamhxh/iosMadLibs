@@ -14,6 +14,7 @@
 		B68D6F48200F1CC900EDFFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68D6F46200F1CC900EDFFC2 /* LaunchScreen.storyboard */; };
 		B68D6F53200F1CC900EDFFC2 /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D6F52200F1CC900EDFFC2 /* MadLibsTests.swift */; };
 		B68D6F5E200F1CC900EDFFC2 /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D6F5D200F1CC900EDFFC2 /* MadLibsUITests.swift */; };
+		B68D6F6F200F402B00EDFFC2 /* insertWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D6F6E200F402B00EDFFC2 /* insertWordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B68D6F59200F1CC900EDFFC2 /* MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68D6F5D200F1CC900EDFFC2 /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
 		B68D6F5F200F1CC900EDFFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68D6F6E200F402B00EDFFC2 /* insertWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertWordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B68D6F3D200F1CC900EDFFC2 /* AppDelegate.swift */,
+				B68D6F6E200F402B00EDFFC2 /* insertWordViewController.swift */,
 				B68D6F3F200F1CC900EDFFC2 /* ViewController.swift */,
 				B68D6F41200F1CC900EDFFC2 /* Main.storyboard */,
 				B68D6F44200F1CC900EDFFC2 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68D6F6F200F402B00EDFFC2 /* insertWordViewController.swift in Sources */,
 				B68D6F40200F1CC900EDFFC2 /* ViewController.swift in Sources */,
 				B68D6F3E200F1CC900EDFFC2 /* AppDelegate.swift in Sources */,
 			);
@@ -430,7 +434,7 @@
 				DEVELOPMENT_TEAM = L5VC7RAKUD;
 				INFOPLIST_FILE = MadLibs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liam.MadLibs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liam.iosQuizAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +449,7 @@
 				DEVELOPMENT_TEAM = L5VC7RAKUD;
 				INFOPLIST_FILE = MadLibs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liam.MadLibs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liam.iosQuizAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
